@@ -10,4 +10,7 @@ import UIKit
 
 class FeedCollectionViewCell: UICollectionViewCell {
     
+    @IBOutlet weak var imageView: UIImageView!
+    @IBOutlet weak var captionLabel: UILabel!
+    
 }
